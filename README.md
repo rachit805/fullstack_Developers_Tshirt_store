@@ -1,2 +1,4 @@
-# fullstack_Developers_Tshirt_store
-A fullstack web app(ecom store to sell tshirts for developrs/coders)
+# Fullstack_React_Django_WebApp_EcomStore
+# Develop fullstack web app using 
+Python's Django framework for Backend, Django_Rest_framework APIs
+React.Js library/framework for Frontend developemnt, React_Router to route request connect frontend to backend data.
