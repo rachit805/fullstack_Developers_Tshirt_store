@@ -1,28 +1,94 @@
+# Django Backend Admin Panel
 
-## Available Scripts
+Create Ecom web app with Django and React.
 
-In the project directory, you can run:
+#
 
-### `npm start`
+## Tools
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Django 
+- React Js
+- Python 3
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#
 
-### `npm test`
+# How to Run Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Download Codes
 
-### `npm run build`
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+Firstly Downlaod code, unzip it> open in VS Code editor then...
+```
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Install Backend(django) Requirements
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+pip install pipenv
+env for virtual environment
+```
+
+```
+pipenv shell
+```
+
+```
+pipenv install
+```
+
+## Install Frontend(React) Dependencies
+
+```
+cd frontend
+```
+
+```
+npm install
+npm audit
+```
+
+## Migrate Backend Models
+
+```
+cd ..
+cd backend
+```
+
+```
+python manage.py makemigrations
+```
+
+```
+python manage.py migrate
+```
+
+## Add Super User
+
+```
+python manage.py createsuperuser
+```
+
+## Run Django Server
+
+```
+python manage.py runserver
+```
+
+## Run FrontEnd
+
+open new terminal in `frontend` directory and run this command.
+
+```
+npm start
+```
+
+## Open On Browser
+
+App Page
+[localhost:3000](http://localhost:3000/)
+
+Django Admin Page
+[127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
 
