@@ -15,9 +15,6 @@ Using Python's Django framework for backend, Rest_framework for APIs, React.JS l
 
 ## Download Codes
 
-```
-
-```
 Firstly Downlaod code, unzip it> open in VS Code editor then...
 ```
 ```
