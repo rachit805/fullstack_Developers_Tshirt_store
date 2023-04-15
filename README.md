@@ -1,6 +1,7 @@
-# Django Backend Admin Panel
+# Develop Fullstack_React_Django_Webapp
+Using Python's Django framework for backend, Rest_framework for APIs, React.JS library/framework for Frontend, React_router_dom to connect routes frontend to backend.
 
-Create Ecom web app with Django and React.
+# Create Ecom Store web app with Django and React.
 
 #
 
@@ -9,8 +10,6 @@ Create Ecom web app with Django and React.
 - Django 
 - React Js
 - Python 3
-
-#
 
 # How to Run Project
 
